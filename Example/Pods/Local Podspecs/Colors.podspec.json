@@ -1,9 +1,9 @@
 {
   "name": "Colors",
   "version": "0.1.0",
-  "summary": "A short description of Colors.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/Colors",
+  "summary": "Colors - It lets you add predefined colors which is not avalible in Xcode",
+  "description": "TODO: Colors helps you to add multiple colors which is not avaliable in xcode",
+  "homepage": "https://github.com/yasodha-msf/Colors",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "yasodha": "yasodha.r@inxsasia.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/Colors.git",
+    "git": "https://github.com/yasodha-msf/Colors.git",
     "tag": "0.1.0"
   },
   "platforms": {

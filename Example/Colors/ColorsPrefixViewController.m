@@ -18,6 +18,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    Colors *colors = [[Colors alloc]init];
+    self.view.backgroundColor = [colors lightBlue];
 }
 
 - (void)didReceiveMemoryWarning

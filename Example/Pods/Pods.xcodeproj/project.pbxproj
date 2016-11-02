@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03E8AA865551375DCD6DC7E5BEB21415 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = A817844DB337D8FC4F43E14BDC7D214A /* ReplaceMe.m */; };
+		02AEFFAA8A0DD1D36CD557A83F66305E /* Colors-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EC2813CEA0EEE8B8AD4EDC98F8A3419 /* Colors-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AFF13ABA1A68FAD3245F48D24AA36A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		76458DD143C62686C9CF7DD32C75215E /* Colors.h in Headers */ = {isa = PBXBuildFile; fileRef = 68065C6825200BC80BAEE3A11DDD09B9 /* Colors.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7FCCE3FD3349B9EADCD74F7522B6F268 /* Pods-Colors_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB018CC164B0568E44B2943BF56CF298 /* Pods-Colors_Tests-dummy.m */; };
-		8F020F8D995908C88737EE501F308604 /* Colors-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EC2813CEA0EEE8B8AD4EDC98F8A3419 /* Colors-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93CCA513330F9750D768F3F55E59F855 /* Colors.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B3F150BF278E5E72642EBB3F32C7C2 /* Colors.m */; };
 		B4ACA465C2C0157582ABD6314E24B5B9 /* Pods-Colors_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D29CE2B4B5BE5A89B6A9695E66B471B6 /* Pods-Colors_Example-dummy.m */; };
-		B77FC1F25BD55FDB0BA11AA6EEB92889 /* Colors-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4747A6173F9D0148825F85BE2C8134E /* Colors-dummy.m */; };
 		C276E7ABFD9ECA5F54ED8F77DC140A84 /* Pods-Colors_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A0C72481BA8160D47C7CA392C6DC7C4E /* Pods-Colors_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE696091FC317D3EBBFE6CCC4D0D202F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		E009D37DC057DE0AE0364B01700F6085 /* Colors-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4747A6173F9D0148825F85BE2C8134E /* Colors-dummy.m */; };
 		E03F391FE2404550C893AD5A367B5D0A /* Pods-Colors_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 150FBDB7CE16F7D33A22195F6AB98CA0 /* Pods-Colors_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E5E06A1BAD19E9C2E6405B5D072CC3A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		F2BA6C67FEA67E449E08CB8F70A12A37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +25,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2A77B94C27729BF9E89FF5377B78CBA8;
+			remoteGlobalIDString = 80857BD68EC1B3BB5A17658154323780;
 			remoteInfo = Colors;
 		};
 /* End PBXContainerItemProxy section */
@@ -35,8 +36,10 @@
 		244F1D524BF1FB196A064200E603DF4C /* Pods_Colors_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Colors_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		347CAEEF98B48C386C3F0EA62CCAA634 /* Pods-Colors_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Colors_Example-frameworks.sh"; sourceTree = "<group>"; };
 		3BD43A517FAEC62F7504F1ED97AD4A46 /* Colors.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Colors.xcconfig; sourceTree = "<group>"; };
+		40B3F150BF278E5E72642EBB3F32C7C2 /* Colors.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Colors.m; sourceTree = "<group>"; };
 		457332D51BCA34D4894FCD0CEDFAE331 /* Pods-Colors_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Colors_Example.modulemap"; sourceTree = "<group>"; };
 		48E275526373B8C7F0AAFDCF0A3DFFCD /* Pods-Colors_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Colors_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		68065C6825200BC80BAEE3A11DDD09B9 /* Colors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Colors.h; sourceTree = "<group>"; };
 		7353F4E67BFA0037208DA02218FECBEE /* Pods-Colors_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Colors_Example-resources.sh"; sourceTree = "<group>"; };
 		79606721E53BF6DA8FDBD960FF74090D /* Pods-Colors_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Colors_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7D92595E0BA54A441E43FFABF5353A68 /* Colors-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Colors-prefix.pch"; sourceTree = "<group>"; };
@@ -48,7 +51,6 @@
 		A0C72481BA8160D47C7CA392C6DC7C4E /* Pods-Colors_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Colors_Example-umbrella.h"; sourceTree = "<group>"; };
 		A3BC2FD4F135759F64CA46A1594370DA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4747A6173F9D0148825F85BE2C8134E /* Colors-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Colors-dummy.m"; sourceTree = "<group>"; };
-		A817844DB337D8FC4F43E14BDC7D214A /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		B56E258AC8F1008527301C07425C4AD5 /* Pods-Colors_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Colors_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B580FC68956D0302CB8F60FD93A7CA74 /* Colors.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Colors.modulemap; sourceTree = "<group>"; };
 		C0FFDA6AF6206A737856E3D158D1CAF2 /* Pods-Colors_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Colors_Tests.modulemap"; sourceTree = "<group>"; };
@@ -81,17 +83,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BA0ED743412B06992EC4B0ECD0194194 /* Frameworks */ = {
+		A26D46D1F9C48F31FE9629D3FF564809 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2BA6C67FEA67E449E08CB8F70A12A37 /* Foundation.framework in Frameworks */,
+				4AFF13ABA1A68FAD3245F48D24AA36A3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13ABD0B0428323A826E70C4CD4C5756F /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				916B917119CE81EE98E4592D9D4081D9 /* Classes */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
 		2C53410640CBECF766FF057886A741AE /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,20 +154,13 @@
 			);
 			sourceTree = "<group>";
 		};
-		8946EC18F260D6ADAC194C69408781CB /* Classes */ = {
+		916B917119CE81EE98E4592D9D4081D9 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				A817844DB337D8FC4F43E14BDC7D214A /* ReplaceMe.m */,
+				68065C6825200BC80BAEE3A11DDD09B9 /* Colors.h */,
+				40B3F150BF278E5E72642EBB3F32C7C2 /* Colors.m */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		BC37A795211F4217E81FAB058F36BBD7 /* Colors */ = {
-			isa = PBXGroup;
-			children = (
-				8946EC18F260D6ADAC194C69408781CB /* Classes */,
-			);
-			path = Colors;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -171,7 +174,7 @@
 		CC6B168739DF056A5404589197ECF15A /* Colors */ = {
 			isa = PBXGroup;
 			children = (
-				BC37A795211F4217E81FAB058F36BBD7 /* Colors */,
+				13ABD0B0428323A826E70C4CD4C5756F /* Colors */,
 				52787F2EFE304C934336DB79287F60DC /* Support Files */,
 			);
 			name = Colors;
@@ -233,14 +236,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		538F1E83ED6CAAA157D4A58426466018 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8F020F8D995908C88737EE501F308604 /* Colors-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B5C1E3E192FE6CBB0B78426AFD01E861 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -249,16 +244,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EDD12F6DC189322D3E5B39A69FA1725D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02AEFFAA8A0DD1D36CD557A83F66305E /* Colors-umbrella.h in Headers */,
+				76458DD143C62686C9CF7DD32C75215E /* Colors.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2A77B94C27729BF9E89FF5377B78CBA8 /* Colors */ = {
+		80857BD68EC1B3BB5A17658154323780 /* Colors */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4D7BD23CE967947599C7EDB4603E9B4B /* Build configuration list for PBXNativeTarget "Colors" */;
+			buildConfigurationList = 72B2E62A35D0D8E56068939A60CA95FB /* Build configuration list for PBXNativeTarget "Colors" */;
 			buildPhases = (
-				1E887882C3D3C93EBC59D74F541B1EEB /* Sources */,
-				BA0ED743412B06992EC4B0ECD0194194 /* Frameworks */,
-				538F1E83ED6CAAA157D4A58426466018 /* Headers */,
+				60AD68734D8F86AC584BD9A18B7199A5 /* Sources */,
+				A26D46D1F9C48F31FE9629D3FF564809 /* Frameworks */,
+				EDD12F6DC189322D3E5B39A69FA1725D /* Headers */,
 			);
 			buildRules = (
 			);
@@ -325,7 +329,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2A77B94C27729BF9E89FF5377B78CBA8 /* Colors */,
+				80857BD68EC1B3BB5A17658154323780 /* Colors */,
 				8FA2E771D633546912D55501B972C816 /* Pods-Colors_Example */,
 				886684B94CF8FA5C5610040E089BD9F9 /* Pods-Colors_Tests */,
 			);
@@ -333,12 +337,12 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1E887882C3D3C93EBC59D74F541B1EEB /* Sources */ = {
+		60AD68734D8F86AC584BD9A18B7199A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B77FC1F25BD55FDB0BA11AA6EEB92889 /* Colors-dummy.m in Sources */,
-				03E8AA865551375DCD6DC7E5BEB21415 /* ReplaceMe.m in Sources */,
+				E009D37DC057DE0AE0364B01700F6085 /* Colors-dummy.m in Sources */,
+				93CCA513330F9750D768F3F55E59F855 /* Colors.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,7 +368,7 @@
 		8DA8EE8D9A12FDDD8600D4FC0B2AACA8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Colors;
-			target = 2A77B94C27729BF9E89FF5377B78CBA8 /* Colors */;
+			target = 80857BD68EC1B3BB5A17658154323780 /* Colors */;
 			targetProxy = 187C7BD845A4839096CFF007B951E833 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -441,13 +445,13 @@
 			};
 			name = Release;
 		};
-		4E649F1DAC685A3512A23260BC3B5030 /* Debug */ = {
+		3680F57A59469E5FDE5AD1A66118A872 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3BD43A517FAEC62F7504F1ED97AD4A46 /* Colors.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -460,7 +464,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Colors/Colors.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = Colors;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -468,7 +472,7 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		500954284DD1EB6F2F24577D5C5BC167 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -503,13 +507,13 @@
 			};
 			name = Debug;
 		};
-		56B92052D6ED6E3663167D925DDF0FFE /* Release */ = {
+		5992575634A358DE0E81B4485A8DEBFC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3BD43A517FAEC62F7504F1ED97AD4A46 /* Colors.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -522,7 +526,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Colors/Colors.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = Colors;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -530,7 +534,7 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		88197CD98359F14E3557080546313CD5 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -670,11 +674,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4D7BD23CE967947599C7EDB4603E9B4B /* Build configuration list for PBXNativeTarget "Colors" */ = {
+		72B2E62A35D0D8E56068939A60CA95FB /* Build configuration list for PBXNativeTarget "Colors" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4E649F1DAC685A3512A23260BC3B5030 /* Debug */,
-				56B92052D6ED6E3663167D925DDF0FFE /* Release */,
+				5992575634A358DE0E81B4485A8DEBFC /* Debug */,
+				3680F57A59469E5FDE5AD1A66118A872 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

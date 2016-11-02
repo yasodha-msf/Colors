@@ -7,6 +7,7 @@
 //
 
 @import UIKit;
+#import "Colors.h"
 
 @interface ColorsPrefixViewController : UIViewController
 
